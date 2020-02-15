@@ -4,7 +4,7 @@ Pagina: index.html
 
 Itens a serem feitos:
 
-1.cabecalho {logo e barra de busca}
+1.cabecalho {logo e barra de busca} (html ok, css ok, )
 2.Nav {com js, content: serviços e contatos}
 3.tabela de serviços html{
     curso de violão             [descriscao aberta em js]
