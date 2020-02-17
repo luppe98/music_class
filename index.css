@@ -23,3 +23,57 @@ a{
     border-radius: 20px; align-items: center;
 
 }
+
+.header input{
+    
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    font-size: 30px; border:#ffa600 solid 2px ; border-radius: 40px; text-align: center;
+}
+
+/*NAV*/
+
+.nav{
+    width: 100%;
+    height: 600px;
+    color: white;
+    
+    background-color: black;
+}
+
+.nav a i{
+    font-size: 50px; padding: 10px;
+    color: white;
+
+}
+
+.nav li i{
+    font-size: 50px; padding: 10px; color: white;
+}
+
+.nav li a{
+    width: 100%;
+    font-size: 30px; color: white; margin: 50px; margin-bottom: 60px;
+    border-bottom:#ffa600 solid 2px ;
+
+}
+
+.menu{
+    
+    position: absolute; top: 12%; left: 0;
+    transform: translateX(-100%);
+    transition: transform 200ms linear;
+}
+
+/*JAVASCRIPT*/
+
+.menu_open{
+    position: absolute; top: 12%; left: 0;
+    transform: translateX(0);
+}
+
+
+
